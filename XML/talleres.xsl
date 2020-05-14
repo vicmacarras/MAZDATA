@@ -12,8 +12,8 @@ body {background-color: black;}
     </style>
   <body>
 
-    <h2>Talleres especialistas en Madrid</h2>
-    <table border="1">
+    <h2 class="maql">Talleres especialistas en Madrid</h2>
+    <table class="maql" border="1">
       <tr bgcolor="red">
         <th>LOCALIZACION</th>
         <th>NUMERO</th>
@@ -27,7 +27,7 @@ body {background-color: black;}
       </tr>
       </xsl:for-each>
     </table>
-    <br> </br><a href="../index.html">Volver al inicio</a>
+    <br> </br><a class="maql" href="../index.html">Volver al inicio</a>
     
   </body>
   </html>

@@ -12,8 +12,8 @@ body {background-color: powderblue;}
     </style>
   <body>
 
-    <h2>Posibles fallos</h2>
-    <table border="1">
+    <h2 class="maql">Posibles fallos</h2>
+    <table class="maql" border="1">
       <tr bgcolor="red">
         <th>GENERACION</th>
         <th>FALLO</th>
@@ -25,7 +25,7 @@ body {background-color: powderblue;}
       </tr>
       </xsl:for-each>
     </table>
-    <br> </br><a href="../index.html">Volver al inicio</a>
+    <br> </br><a class="maql" href="../index.html">Volver al inicio</a>
   </body>
   </html>
 </xsl:template>
