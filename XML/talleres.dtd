@@ -1,0 +1,21 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT talleres (taller)+>
+<!ATTLIST talleres
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT taller (LOCALIZACION,NUMERO,CALLE)>
+<!ATTLIST taller
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT LOCALIZACION (#PCDATA)>
+<!ATTLIST LOCALIZACION
+  xmlns CDATA #FIXED ''>
+  
+ <!ELEMENT CALLE (#PCDATA)>
+<!ATTLIST CALLE
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT NUMERO (#PCDATA)>
+<!ATTLIST NUMERO
+  xmlns CDATA #FIXED ''>

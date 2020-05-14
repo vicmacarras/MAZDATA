@@ -1,0 +1,251 @@
+*{
+ margin-top: 0%;
+   font-family: OPEL;
+}
+body{
+	/*background-image: url(../IMG/bg.jpg); */
+	background: url(../IMG/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  	margin: 0%;
+  	height: 100%;
+  	width: 100%;
+}
+header{
+	background-image: url(../IMG/bgheaderold.jpg);
+  background-position: left center;
+	width: 100%;
+	height: 50%;
+	background-repeat: no-repeat;
+	background-color: black;
+
+}
+header img{
+
+	float: left;
+	  height: 70px;
+  margin: 2px;
+  padding-left: 1%;
+}
+header img:hover{
+
+  transform: scaleY(1.5);
+  transition-duration: 2s;
+
+}
+header h1{
+	text-align: left;
+	color: red;
+	margin: 0%;
+	background-color:rgba(0,0,0,0.0);
+	padding-bottom: 1%;
+	padding-top: 1%;
+	padding-left:3%;
+	font-family: OPEL;
+	background-color: rgba(255,0,0,0,0.9);
+}
+header h1:hover{
+	text-shadow: 0 0 5px pink; 
+}
+nav{
+	background-color:rgba(0,0,0,0.1);
+	width: 100%;
+}
+ul {
+  list-style-type: none;
+
+  }
+li{
+	float: left;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+
+}
+li:hover{
+	float: left;
+
+	background-color:rgba(0,0,0,0.1);
+}
+li.active {
+background-color:rgba(0,0,0,0.2);
+}
+@font-face {
+        font-family: "OPEL";
+        src: url(Montserrat-Regular.ttf);
+}
+li a {
+  display: block;
+   font-size: 2em;
+  color: red;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: OPEL;
+}
+li a:hover {
+  color: yellow;
+
+}
+
+section{
+	width: 80%;
+	float: left;
+}
+article{
+	border-radius: 25px;
+	background-color:rgba(0,0,0,0.7);
+	margin:1%;
+	padding:1%;
+}
+article img{
+	width: 100%;
+
+}
+article a{
+	color:white;
+	font-size: 1.5em;
+}
+article h1{
+	font-family: OPEL;
+	font-size: 4vh;
+	color: white;
+}
+aside{
+	width: 20%;
+	float: left;
+	position: sticky;
+    top: 0;
+   height: 100%;
+
+}
+aside h1  {
+	text-align: center;
+	padding-top: 1%;
+		color: orange;
+		font-family: OPEL;
+
+}
+aside h2  {
+	text-align: center;
+	padding-top: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	color: orange;
+}
+aside hr{
+}
+aside img{
+	height: auto;
+	width: 97%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 1%;
+	text-align:center;
+
+}
+aside a{
+   height: 100%;
+}
+aside a.llenar{
+	height: all;
+}
+footer{
+	background-color:rgba(0,0,0,0.5);
+	width: 100%;
+	float: left;
+	height: all;
+}
+footer h1{
+	color: #c2b280;
+	padding-left: 2%;
+}
+footer table{
+	padding-left: 4%;
+	background-color:rgba(0,0,0,0.2);
+}
+td{
+	color: white;
+}
+input{
+	background-color: pink;
+}
+textarea{
+	background-color: pink;
+}
+input {
+    border: 5px solid white; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+	font-size:1em;
+}
+textarea {
+    border: 5px solid white; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+	font-size:1em;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mydiapositiva {display: none;}
+img {vertical-align: middle;}
+
+.diapositiva {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.circulos {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.transparencia {
+  -webkit-animation-name: transparencia;
+  -webkit-animation-duration: 1.5s;
+  animation-name: transparencia;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes transparencia {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes transparencia {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+

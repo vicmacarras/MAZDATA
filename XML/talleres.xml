@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="talleres.xsl"?>
+<!DOCTYPE talleres SYSTEM "talleres.dtd">
+<talleres>
+  <taller>
+    <LOCALIZACION>Majadahonda</LOCALIZACION>
+    <NUMERO>813577583</NUMERO>
+    <CALLE >LosRosales,12</CALLE>
+  </taller>
+  <taller>
+    <LOCALIZACION>Las Rozas</LOCALIZACION>
+    <NUMERO>813577584</NUMERO>
+    <CALLE >Sonsoles,312</CALLE>
+  </taller>
+  <taller>
+    <LOCALIZACION>Pozuelo</LOCALIZACION>
+    <NUMERO>813577585</NUMERO>
+    <CALLE >Av.Portugal,21</CALLE>
+  </taller>
+  <taller>
+    <LOCALIZACION>Aranjuez</LOCALIZACION>
+    <NUMERO>813577586</NUMERO>
+    <CALLE >Emperadores,288</CALLE>
+  </taller>
+  <taller>
+    <LOCALIZACION>Navacerrada</LOCALIZACION>
+    <NUMERO>813577587</NUMERO>
+    <CALLE >N-VI,1266</CALLE>
+  </taller>
+</talleres>
