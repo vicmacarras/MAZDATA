@@ -149,6 +149,16 @@ footer{
 	float: left;
 	height: all;
 }
+table.maql {
+	margin: 3% 0% 0% 5%;
+}
+h2.maql {
+	margin: 3% 0% 0% 5%;
+}
+a.maql {
+	margin: 3% 0% 0% 5%;
+}
+
 footer h1{
 	color: #c2b280;
 	padding-left: 2%;
