@@ -77,24 +77,38 @@ El MX5 posee el récord Guiness al descapotable más vendido del mundo, con 1.00
 		<hr>
 	</aside>
 
-	<footer>
+		<footer>
 		<h1>¿Crees que algo esta mal? Haznoslo saber :D</h1>
 		<table>
 			<tr>
 				<td>Nombre:</td>
-				<td><input type="text" name="alias" placeholder="Poleador91,Lorena21,etc..."></td>
+				<td><input id="nombre" type="text" name="alias" placeholder="Poleador91,Lorena21,etc..."></td>
 			</tr>
 			<tr>
 				<td>Mensaje:</td>
-				<td><textarea rows="4" cols="50" name="texto" placeholder="Escribe aqui lo que nos quieras comunicar."></textarea></td>
+				<td><textarea id="textarea" rows="4" cols="50" name="texto" placeholder="Escribe aqui lo que nos quieras comunicar."></textarea></td>
 			</tr>
 			<tr>
 				<td></td>
-				<td><input type="submit" value="Enviar - Deshabilitado en tu IP" name=""></td>
+				<td><input onclick="popup()" type="submit" id="enviar" name=""></td>
 			</tr>
 		</table>
 	</footer>
+	
+<script src="./JS/enviar.js"></script>
+	<div id="popdiv" class="pop">
+		<div class="pop2">
+		
+			<h1>Comprueba que la información sea correcta</h1>		
 
-
+			<a>Nombre:</a> <br>
+			<a id="confname">NO HAS INTRODUCIDO NADA. CRACK</a>	<br>
+			<a>Mensaje:</a> <br>
+			<a id="conftext">NO HAS INTRODUCIDO NADA. CRACK</a> <br> <br>
+			<input onclick="popup2()" value="ENVIAR" type="submit" id="confenvio" name="">
+			<input onclick="popup2()" value="CANCELAR ENVIO"type="submit" id="confenvio" name="">
+		
+		</div>
+	</div>
 </body>
 </html>

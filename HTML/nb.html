@@ -107,44 +107,39 @@ Siguiendo con esa política de versiones no faltó en el caso del Nb una alterna
 		<a class="llenar">&nbsp</a>
 	</aside>
 
-	<footer>
+<footer>
 		<h1>¿Crees que algo esta mal? Haznoslo saber :D</h1>
 		<table>
 			<tr>
 				<td>Nombre:</td>
-				<td><input type="text" name="alias" placeholder="Poleador91,Lorena21,etc..."></td>
+				<td><input id="nombre" type="text" name="alias" placeholder="Poleador91,Lorena21,etc..."></td>
 			</tr>
 			<tr>
 				<td>Mensaje:</td>
-				<td><textarea rows="4" cols="50" name="texto" placeholder="Escribe aqui lo que nos quieras comunicar."></textarea></td>
+				<td><textarea id="textarea" rows="4" cols="50" name="texto" placeholder="Escribe aqui lo que nos quieras comunicar."></textarea></td>
 			</tr>
 			<tr>
 				<td></td>
-				<td><input type="submit" name=""></td>
+				<td><input onclick="popup()" type="submit" id="enviar" name=""></td>
 			</tr>
 		</table>
 	</footer>
+	
+<script src="../JS/IMGSLIDER.js"></script>
+<script src="../JS/enviar.js"></script>
+	<div id="popdiv" class="pop">
+		<div class="pop2">
+		
+			<h1>Comprueba que la información sea correcta</h1>		
 
-<script>
-var slideIndex = 0;
-diapositivaautomatica();
-
-function diapositivaautomatica() {
-  var i;
-  var diapositiva = document.getElementsByClassName("mydiapositiva");
-  var circuloss = document.getElementsByClassName("circulos");
-  for (i = 0; i < diapositiva.length; i++) {
-    diapositiva[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > diapositiva.length) {slideIndex = 1}    
-  for (i = 0; i < circuloss.length; i++) {
-    circuloss[i].className = circuloss[i].className.replace(" active", "");
-  }
-  diapositiva[slideIndex-1].style.display = "block";  
-  circuloss[slideIndex-1].className += " active";
-  setTimeout(diapositivaautomatica, 5000); 
-}
-</script>
+			<a>Nombre:</a> <br>
+			<a id="confname">NO HAS INTRODUCIDO NADA. CRACK</a>	<br>
+			<a>Mensaje:</a> <br>
+			<a id="conftext">NO HAS INTRODUCIDO NADA. CRACK</a> <br> <br>
+			<input onclick="popup2()" value="ENVIAR" type="submit" id="confenvio" name="">
+			<input onclick="popup2()" value="CANCELAR ENVIO"type="submit" id="confenvio" name="">
+		
+		</div>
+	</div>
 </body>
 </html>
