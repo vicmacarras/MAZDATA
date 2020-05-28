@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="fallos.xsl"?>
-<!DOCTYPE coches SYSTEM "fallos.dtd">
-<coches>
+<coches  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="fallos.xsd">
   <coche>
     <GENERACION>NA</GENERACION>
     <FALLO>Junta de la trocola</FALLO>
